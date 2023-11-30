@@ -45,7 +45,7 @@ app.post("/send-mail", (req, res) => {
     //const url = req.body.url;
     const mailData = {
         from: "ranveer01.khokhar@gmail.com",
-        to: sur.anusha@gmail.com,
+        to: "sur.anusha@gmail.com",
         subject: "Join the video chat with me!",
         html: `<p>Hey there,</p><p>Come and join me for a video chat here - ${url}</p>`
     };
